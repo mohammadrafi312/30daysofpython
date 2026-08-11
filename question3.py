@@ -53,3 +53,22 @@
 # total = mark1 + mark2 + mark3
 # average = total / 3
 # percentage = ...
+
+# CODE :
+
+student_name =input("enter the student name:")
+student_age =int(input("student age :"))
+subject1 =int(input("marks of subject 1:"))
+subject2 =int(input("marks of subject 2:"))
+subject3 =int(input("marks of subject 3:"))
+total = (subject1 + subject2 + subject3)
+Average =(subject1 + subject2 + subject3/3)
+percentage = (total / 300) * 100
+
+# print("===================RESULTS====================")
+print(f"name  :{student_name}")
+print(f"age   :{student_age}")
+
+print("total:",total)
+print("Average:",Average)
+print("percentage:",percentage,"%")
