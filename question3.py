@@ -62,7 +62,7 @@ subject1 =int(input("marks of subject 1:"))
 subject2 =int(input("marks of subject 2:"))
 subject3 =int(input("marks of subject 3:"))
 total = (subject1 + subject2 + subject3)
-Average =(subject1 + subject2 + subject3/3)
+Average =(subject1 + subject2 + subject3)/3
 percentage = (total / 300) * 100
 
 # print("===================RESULTS====================")
